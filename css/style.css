@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .overlay {
     position: absolute;
     top: 0px;
@@ -8,3 +12,32 @@
     opacity: 0.5;
     background: #4069ab;
   }
+
+nav a:hover {
+  color: black;
+  text-decoration: underline    ;
+}
+
+.ft-white {
+  color: #ffffff;
+}
+
+.ft-blue {
+  color: #4069AB !important;
+}
+
+.ft-gray {
+  color: #A4A4A4;
+}
+
+.bg-blue {
+  background-color: #4069AB;
+}
+
+.bg-black {
+  background-color: #030303;
+}
+
+.bg-cream {
+  background-color: #F1F1F1;
+}
