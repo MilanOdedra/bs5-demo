@@ -1,22 +1,18 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAF9F6;
 }
 
 .overlay {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    content: "";
-    opacity: 0.5;
-    background: #4069ab;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  content: "";
+  opacity: 0.5;
+  background: #4069ab;
   }
-
-nav a:hover {
-  color: black;
-  text-decoration: underline    ;
-}
 
 .ft-white {
   color: #ffffff;
@@ -27,7 +23,7 @@ nav a:hover {
 }
 
 .ft-gray {
-  color: #A4A4A4;
+  color: #A4A4A4 !important;
 }
 
 .bg-blue {
@@ -40,4 +36,59 @@ nav a:hover {
 
 .bg-cream {
   background-color: #F1F1F1;
+}
+
+.bg-offwhite {
+  background-color: #FAF9F6;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='#4069AB' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+div.container {
+    background-image: url("img/bg-blue")
+}
+
+.shadow {
+    box-shadow: 2px 2px #000000;
+}
+
+#banner {
+    height: 500px;
+    object-fit: cover;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+li  a {
+  color:#A4A4A4;
+}
+
+li a:hover {
+  color: #ffffff;
+}
+
+.custom-form {
+  border-radius: 25px;
+  background-color: rgba(64, 105, 171, 0.9);
+}
+
+.google-map {
+  position: relative;;
+}
+
+.google-map iframe{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 25px;
 }

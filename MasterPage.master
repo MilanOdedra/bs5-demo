@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>1Page</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=sans-serif" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Head content goes here. -->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!-- Header goes here. -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand fw-light fs-1 ms-5"><span class="fw-bold">1</span>PAGE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end me-5" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 fs-6">
+                            <li class="nav-item text-end">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item text-end">
+                                <a class="nav-link" aria-current="page" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item text-end">
+                                <a class="nav-link" aria-current="page" href="#">OUR SERVICES</a>
+                            </li>
+                            <li class="nav-item text-end">
+                                <a class="nav-link" aria-current="page" href="#">OUR PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item text-end">
+                                <a class="nav-link" aria-current="page" href="#">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <!-- Footer goes here. -->
+        <footer class="bg-blue container-fluid">
+            <div class="container-fluid w-75">
+                <div class="row">
+                    <div class="col-md ft-white text-start mt-4">
+                        <h3 class="fs-5">ABOUT US</h3>
+                        <address class="ft-gray"><span class="fs-6 ft-white">Address: </span>Office No. 501, 5th Floor, Ghanshyam Enclave, Next To Laljipada Police Station, Laljipada, Link Road, Kandivali (West), Mumbai - 400067. Maharashtra - India</address>
+                        <a href="tel:+91 022-4826-410" class="fs-6 ft-gray d-block"><span class="ft-white">Office:</span>+91 022-4826-410</a>
+                        <a href="tel:+91 808-080-3374" class="fs-6 ft-gray d-block"><span class="ft-white">Sales: </span>+91 808-080-3374 / +91 808-080-3375</a>
+                        <a href="tel:+91 808-062-1003" class="fs-6 ft-gray d-block"><span class="ft-white">Support: </span>+91 808-062-1003 / +91 808-072-1003</a>
+                        <a href="" class="fs-6 ft-gray d-block"><span class="ft-white">Sales: </span>info@technofra.com</a>
+                        <a href="" class="fs-6 ft-gray d-block"><span class="ft-white">Support: </span>support@technofra.com</a>
+                    </div>
+                    <div class="col-md ft-white text-start mt-4">
+                        <h3 class="fs-5">SERVICES</h3>
+                        <div class="container text-start px-1">
+                            <ul class="ft-gray fs-6 ps-0">
+                                <li>
+                                    <a href="#">Website Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mobile Application</a>
+                                </li>
+                                <li>
+                                    <a href="#">Branding </a>
+                                </li>
+                                <li>
+                                    <a href="#">Digital Marketing</a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#">Payment Gateway</a>
+                                </li>
+                                <li>
+                                    <a href="#">Domain &amp; Hosting</a>
+                                </li>
+                                <li>
+                                    <a href="#">IT Infrastructure</a>
+                                </li>
+                                <li>
+                                    <a href="#">CMS CRM System</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md ft-white text-start mt-4">
+                        <h3 class="fs-5">QUICK LINKS</h3>
+                        <ul class="ft-gray fs-6 ps-0">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Our Team</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#">Support</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">Request a Quote</a>
+                            </li>
+                            <li>
+                                <a href="#">Pay Now</a>
+                            </li>
+                            <li>
+                                <a href="#">Raise a Ticket</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <!-- scripts goes here. -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </form>
+</body>
+</html>
